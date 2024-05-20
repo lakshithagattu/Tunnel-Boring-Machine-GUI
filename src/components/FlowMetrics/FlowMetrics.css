@@ -1,0 +1,22 @@
+.flow-metric-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container{
+    width:66%;
+    margin:0px;
+    padding:0px;
+}
+.flow-metric-container h3 {
+    font-size: 14px;
+}
+
+.flow-metric-container p{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+

@@ -1,0 +1,39 @@
+.connected{
+    width: 82px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: #0dff00;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.disconnected{
+    width: 103px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: #ff0000;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.connected p, .disconnected p {
+    margin-top: -8px;
+  }
+
+.connected p{
+    color: black;
+}
+
+.sensor-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.connection-container{
+    width: 60%;
+}

@@ -1,0 +1,70 @@
+/* MotorControl.css */
+.hydraulics-control-container {
+  width: 50%;
+  float: left;
+  /* margin-top: 15px; */
+}
+
+.hydraulics-control-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.solenoid-state-text {
+  font-size: 15px;
+  /* margin-left: -240px; */
+}
+
+.button-container {
+  display: flex; 
+  justify-content: center;
+  margin-right: 5%;
+}
+
+
+
+.extend-btn, .retract-btn, .neutral-btn {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+  /* margin-left: 8%; */
+  /* padding: 20px; */
+  font-size: 12px;
+}
+
+ /* .progress-container {
+  
+} */
+/*
+.progress-bar  {
+  width: calc((100% / 100) * var(--progress));
+  height: 100%;
+  margin-right: auto;
+}
+
+
+
+@media (max-width: 768px) {
+  .hydraulics-control-container {
+    margin-right: 5%;
+  }
+
+  .button-container {
+    margin-right: 5%;
+  }
+
+  .progress-container {
+    margin-right: -61%; 
+  }
+} */
+
+.extending-text {
+  color: green;
+}
+
+.retracting-text {
+  color: yellow;
+}
+

@@ -1,0 +1,53 @@
+.control-box { 
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0px;
+  border-radius: 10px;
+  margin: 5px;
+  h3 {
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+  }
+}
+
+.child-box {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 0px;
+  div{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  p {
+    margin: 3px;
+  }
+  @media (max-width: 1000px) {
+    div {
+      flex-direction: column;
+    }
+  }
+  margin-bottom: 5px;
+} 
+.bottom-box {
+  div{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  @media (max-width: 1000px) {
+    div {
+      flex-direction: column;
+    }
+  }
+  margin-bottom: 5px;
+  p {
+    margin-right: 3px;
+    margin-left: 3px;
+    text-align: center;
+  }
+}
+

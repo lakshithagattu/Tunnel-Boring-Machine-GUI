@@ -1,0 +1,74 @@
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.sensor-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.sensor-limit-reading{
+    display: flex;
+    flex-direction: column;
+}
+
+.sensor-limit-reading p{
+    font-size: 10px;
+    margin: 4px;
+    padding: 0px;
+    text-align: center;
+}
+
+.border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 66%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sensor-value-reading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+}
+.in-range{
+    background-color: green;
+}
+.out-range{
+    background-color: red;
+}
+
+.sensor-value-reading p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.line {
+  border-left: 1px solid white;
+  height: 90%;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.title {
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.sensor-container{
+    width: 32%;
+    height: 100%;
+}

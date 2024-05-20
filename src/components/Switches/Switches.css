@@ -1,0 +1,10 @@
+.switch-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.switches-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}

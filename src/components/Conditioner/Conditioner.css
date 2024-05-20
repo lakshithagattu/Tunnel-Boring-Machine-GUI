@@ -1,0 +1,22 @@
+.conditioner-control-container {
+    width: 49%; /* Set this to the desired width */
+    float: right; /* Align to the right side */
+    margin-top: 15px;
+}
+
+/* Optional: clear float if it's the last element */
+.conditioner-control-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* MotorControl.css */
+.button-text-size {
+    font-size: 18px; /* Size for button text */
+}
+
+.info-text-size {
+    font-size: 15px; /* Size for information text under children2 */
+}
+
